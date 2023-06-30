@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script >
+    'use strict'
+    console.log("a\nb");
+    console.log("\u4e2d")//unicode字符
+    console.log("\x41")//Ascall字符
+    var msg=`
+    wenhao
+    2002
+    wh
+    `//tab键上面，ESC下面
+    console.log(msg)
+    let name="wenhao";
+    let age=10;
+    console.log(`${name}年龄${age}`)
+    /*
+    * 字符串长度 name.length
+    * 大小写转换 name.toUpperCase()  name.toLowerCase()
+    * 字符串可变性，不可变
+    * 获取指定字符索引 name.indexOf('e')
+    * substring 按字符看  (]  name.substring(1)//从第二个字符截取到最后一个 name.substring(1,3)//从第二个字符截取到第三个
+    *           按索引看 [)
+    * */
+     var msg=`
+     ${name.length}
+     ${name.toUpperCase()}  ${name.toLowerCase()}
+     ${name.indexOf('e')}
+     ${name.substring(1)}
+     ${name.substring(1,3)}
+     `
+    console.log(msg)
+  </script>
+
+</head>
+<body>
+
+</body>
+</html>

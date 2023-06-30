@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--javascript严格区分大小写-->
+    <script>
+        //1.定义变量 变量类型 变量名=变量值
+        var score=71;
+       // alert(num);
+        //2.条件控制
+        if(score>60&&score<70){
+
+            alert("60-70");
+        }else if(score>70&&score<80){
+            alert("70-80")
+        }
+        else {
+            alert("other")
+        }
+        //console.log(socre) 在浏览器打印变量！ System.out.println();
+        /*
+        * asdasdasd
+        * */
+        /*3.=
+            == 等于(类型不一样，值一样，也会判断为true,这是JS的一个缺陷)
+            === 绝对等于（类型一样，值一样，结果为true）
+            须知
+            NaN===NaN,这个与所有的数值都不相等，包括自己
+            只能通过isNaN(NaN)来判断这个数是否是NaN
+
+            */
+        /*4.
+        null 空
+        undefined
+        *
+        * */
+        /*5.数组[]
+        *
+        * */
+        var arr=[1,2,3,'hello',null,true,"wenhao"]
+        console.log(arr[1],arr)
+        /*
+        * 对象{}
+        * 取对象的值 person.name
+        * 每个属性之间用逗号隔开，最后一个不用加逗号
+        * */
+       var person={
+           name:"wenhao",
+           age:3,
+           tags:['js',"java",1,2]
+       }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
